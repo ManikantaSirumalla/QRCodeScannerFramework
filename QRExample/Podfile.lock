@@ -1,0 +1,16 @@
+PODS:
+  - QRCodeScannerFrameworkforIphones (1.0.0)
+
+DEPENDENCIES:
+  - QRCodeScannerFrameworkforIphones
+
+SPEC REPOS:
+  trunk:
+    - QRCodeScannerFrameworkforIphones
+
+SPEC CHECKSUMS:
+  QRCodeScannerFrameworkforIphones: 5dd727f79b97efbfa5e7e9c5cee0b8fe714b62f0
+
+PODFILE CHECKSUM: fee518d43b3dbf808475ffc4be654cca0a01cf02
+
+COCOAPODS: 1.12.1
