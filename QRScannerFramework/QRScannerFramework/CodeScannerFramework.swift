@@ -7,19 +7,19 @@
 
 import Foundation
 
-public class QRScannerFramework {
-    public static func createQRScannerViewController(delegate: QRScannerDelegate? = nil) -> QRScannerViewController {
-        let scannerViewController = QRScannerViewController()
+public class CodeScannerFramework {
+    public static func createQRScannerViewController(delegate: CodeScannerDelegate? = nil) -> QRCodeScannerViewController {
+        let scannerViewController = QRCodeScannerViewController()
         scannerViewController.delegate = delegate
         return scannerViewController
     }
     
-    public static func createBarcodeScannerViewController(delegate: QRScannerDelegate? = nil) -> QRScannerViewController {
-        let scannerViewController = QRScannerViewController()
+    public static func createBarcodeScannerViewController(delegate: CodeScannerDelegate? = nil) -> BarcodeScannerViewController {
+        let scannerViewController = BarcodeScannerViewController()
         scannerViewController.delegate = delegate
         return scannerViewController
     }
-
+    
     // Any Other utility methods or functions related to your framework can be added here.
     //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
 }

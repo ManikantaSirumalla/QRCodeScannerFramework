@@ -21,5 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>need access to camera to scan the codes</string>
 </dict>
 </plist>

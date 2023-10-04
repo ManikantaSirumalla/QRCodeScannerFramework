@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A739BAE22ACE103400C2E4C1 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491962ACE0C1800C98061 /* QRCodeScannerViewController.swift */; };
+		A739BAE32ACE103F00C2E4C1 /* CodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491932ACE0C1700C98061 /* CodeDisplayViewController.swift */; };
+		A739BAE42ACE104100C2E4C1 /* CodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491942ACE0C1800C98061 /* CodeScannerViewController.swift */; };
+		A739BAE52ACE104300C2E4C1 /* CodeViewFinderOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491952ACE0C1800C98061 /* CodeViewFinderOverlayView.swift */; };
+		A739BAE62ACE104500C2E4C1 /* BarCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491922ACE0C1700C98061 /* BarCodeScannerViewController.swift */; };
+		A7A4917A2ACE0BFA00C98061 /* generateImageFromCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491792ACE0BFA00C98061 /* generateImageFromCode.swift */; };
+		A7A4919A2ACE0C5200C98061 /* AVCapturePreviewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491982ACE0C5200C98061 /* AVCapturePreviewLayer.swift */; };
+		A7A4919B2ACE0C5200C98061 /* UIViewController+TopMost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491992ACE0C5200C98061 /* UIViewController+TopMost.swift */; };
+		A7A4919E2ACE0C6500C98061 /* CodeScannerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4919D2ACE0C6500C98061 /* CodeScannerDelegate.swift */; };
+		A7A491A22ACE0C7000C98061 /* CodeScannerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491A02ACE0C7000C98061 /* CodeScannerError.swift */; };
+		A7A491A32ACE0C7000C98061 /* CodeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A491A12ACE0C7000C98061 /* CodeType.swift */; };
 		A7B4F1442A993C9B00612303 /* QRScannerFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A7B4F1432A993C9B00612303 /* QRScannerFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7B4F14B2A993CC300612303 /* QRScannerFramwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F14A2A993CC300612303 /* QRScannerFramwork.swift */; };
+		A7B4F14B2A993CC300612303 /* CodeScannerFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F14A2A993CC300612303 /* CodeScannerFramework.swift */; };
 		A7B4F14D2A993CCD00612303 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F14C2A993CCD00612303 /* QRScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7A491792ACE0BFA00C98061 /* generateImageFromCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = generateImageFromCode.swift; sourceTree = "<group>"; };
+		A7A491922ACE0C1700C98061 /* BarCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerViewController.swift; sourceTree = "<group>"; };
+		A7A491932ACE0C1700C98061 /* CodeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDisplayViewController.swift; sourceTree = "<group>"; };
+		A7A491942ACE0C1800C98061 /* CodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScannerViewController.swift; sourceTree = "<group>"; };
+		A7A491952ACE0C1800C98061 /* CodeViewFinderOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewFinderOverlayView.swift; sourceTree = "<group>"; };
+		A7A491962ACE0C1800C98061 /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		A7A491982ACE0C5200C98061 /* AVCapturePreviewLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCapturePreviewLayer.swift; sourceTree = "<group>"; };
+		A7A491992ACE0C5200C98061 /* UIViewController+TopMost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMost.swift"; sourceTree = "<group>"; };
+		A7A4919D2ACE0C6500C98061 /* CodeScannerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScannerDelegate.swift; sourceTree = "<group>"; };
+		A7A491A02ACE0C7000C98061 /* CodeScannerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScannerError.swift; sourceTree = "<group>"; };
+		A7A491A12ACE0C7000C98061 /* CodeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeType.swift; sourceTree = "<group>"; };
 		A7B4F1402A993C9B00612303 /* QRScannerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QRScannerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B4F1432A993C9B00612303 /* QRScannerFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRScannerFramework.h; sourceTree = "<group>"; };
-		A7B4F14A2A993CC300612303 /* QRScannerFramwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerFramwork.swift; sourceTree = "<group>"; };
+		A7B4F14A2A993CC300612303 /* CodeScannerFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeScannerFramework.swift; sourceTree = "<group>"; };
 		A7B4F14C2A993CCD00612303 /* QRScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -30,6 +52,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7A491782ACE0BFA00C98061 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A7A491792ACE0BFA00C98061 /* generateImageFromCode.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A7A491912ACE0C1700C98061 /* CodeScannerViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CodeScannerViewControllers;
+			sourceTree = "<group>";
+		};
+		A7A491972ACE0C5200C98061 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7A491982ACE0C5200C98061 /* AVCapturePreviewLayer.swift */,
+				A7A491992ACE0C5200C98061 /* UIViewController+TopMost.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7A4919C2ACE0C6500C98061 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4919D2ACE0C6500C98061 /* CodeScannerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A7A4919F2ACE0C7000C98061 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A7A491A02ACE0C7000C98061 /* CodeScannerError.swift */,
+				A7A491A12ACE0C7000C98061 /* CodeType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		A7B4F1362A993C9B00612303 = {
 			isa = PBXGroup;
 			children = (
@@ -50,8 +113,18 @@
 			isa = PBXGroup;
 			children = (
 				A7B4F1432A993C9B00612303 /* QRScannerFramework.h */,
-				A7B4F14A2A993CC300612303 /* QRScannerFramwork.swift */,
+				A7A491962ACE0C1800C98061 /* QRCodeScannerViewController.swift */,
 				A7B4F14C2A993CCD00612303 /* QRScannerViewController.swift */,
+				A7A491932ACE0C1700C98061 /* CodeDisplayViewController.swift */,
+				A7A491942ACE0C1800C98061 /* CodeScannerViewController.swift */,
+				A7B4F14A2A993CC300612303 /* CodeScannerFramework.swift */,
+				A7A491922ACE0C1700C98061 /* BarCodeScannerViewController.swift */,
+				A7A491952ACE0C1800C98061 /* CodeViewFinderOverlayView.swift */,
+				A7A4919C2ACE0C6500C98061 /* Protocols */,
+				A7A491972ACE0C5200C98061 /* Extensions */,
+				A7A4919F2ACE0C7000C98061 /* Enums */,
+				A7A491912ACE0C1700C98061 /* CodeScannerViewControllers */,
+				A7A491782ACE0BFA00C98061 /* Utilities */,
 			);
 			path = QRScannerFramework;
 			sourceTree = "<group>";
@@ -136,8 +209,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7A491A22ACE0C7000C98061 /* CodeScannerError.swift in Sources */,
+				A7A4919A2ACE0C5200C98061 /* AVCapturePreviewLayer.swift in Sources */,
+				A739BAE42ACE104100C2E4C1 /* CodeScannerViewController.swift in Sources */,
 				A7B4F14D2A993CCD00612303 /* QRScannerViewController.swift in Sources */,
-				A7B4F14B2A993CC300612303 /* QRScannerFramwork.swift in Sources */,
+				A739BAE62ACE104500C2E4C1 /* BarCodeScannerViewController.swift in Sources */,
+				A7A4919B2ACE0C5200C98061 /* UIViewController+TopMost.swift in Sources */,
+				A7A4917A2ACE0BFA00C98061 /* generateImageFromCode.swift in Sources */,
+				A7A4919E2ACE0C6500C98061 /* CodeScannerDelegate.swift in Sources */,
+				A7A491A32ACE0C7000C98061 /* CodeType.swift in Sources */,
+				A739BAE52ACE104300C2E4C1 /* CodeViewFinderOverlayView.swift in Sources */,
+				A739BAE32ACE103F00C2E4C1 /* CodeDisplayViewController.swift in Sources */,
+				A739BAE22ACE103400C2E4C1 /* QRCodeScannerViewController.swift in Sources */,
+				A7B4F14B2A993CC300612303 /* CodeScannerFramework.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

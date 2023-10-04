@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77AA6AE2ACD9DB000342A8C /* BarCodeViewFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77AA6AD2ACD9DB000342A8C /* BarCodeViewFinder.swift */; };
 		A7B4F17B2A99CB6800612303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F17A2A99CB6800612303 /* AppDelegate.swift */; };
 		A7B4F17D2A99CB6800612303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F17C2A99CB6800612303 /* SceneDelegate.swift */; };
 		A7B4F17F2A99CB6800612303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4F17E2A99CB6800612303 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		18D52BDC0850AE37B88A9370 /* Pods-QRExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRExample.debug.xcconfig"; path = "Target Support Files/Pods-QRExample/Pods-QRExample.debug.xcconfig"; sourceTree = "<group>"; };
 		984767176FC6F899A038FA3B /* Pods_QRExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77AA6AD2ACD9DB000342A8C /* BarCodeViewFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewFinder.swift; sourceTree = "<group>"; };
 		A7B4F1772A99CB6800612303 /* QRExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B4F17A2A99CB6800612303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B4F17C2A99CB6800612303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +58,6 @@
 				18D52BDC0850AE37B88A9370 /* Pods-QRExample.debug.xcconfig */,
 				CBAF3A6CD3C10E63E0782251 /* Pods-QRExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				A7B4F1832A99CB6A00612303 /* Assets.xcassets */,
 				A7B4F1852A99CB6A00612303 /* LaunchScreen.storyboard */,
 				A7B4F1882A99CB6A00612303 /* Info.plist */,
+				A77AA6AD2ACD9DB000342A8C /* BarCodeViewFinder.swift */,
 			);
 			path = QRExample;
 			sourceTree = "<group>";
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7B4F17F2A99CB6800612303 /* ViewController.swift in Sources */,
+				A77AA6AE2ACD9DB000342A8C /* BarCodeViewFinder.swift in Sources */,
 				A7B4F17B2A99CB6800612303 /* AppDelegate.swift in Sources */,
 				A7B4F17D2A99CB6800612303 /* SceneDelegate.swift in Sources */,
 			);
